@@ -5,7 +5,7 @@ This repository contains the experimental results and supplementary materials fo
 **Hi-RWKV: Hierarchical RWKV Modeling for Hyperspectral Image Classification**  
 *Submitted to IEEE Transactions on Image Processing*
 
-[Paper PDF](./IEEE_Transactions_on_Image_Processing___HISV.pdf) | [Project Page](https://github.com/HSI-Lab/Hi-RWKV)
+[Project Page](https://github.com/HSI-Lab/Hi-RWKV)
 
 ---
 
@@ -16,7 +16,7 @@ This repository contains the experimental results and supplementary materials fo
 - **Progressive Resolution Reduction**: Maintains discriminative features while reducing memory cost.
 - **State-of-the-Art Performance**: Consistent improvements over CNN-, Transformer-, and Mamba-based baselines on four benchmarks.
 
-![Hi-RWKV Framework](./FrameworkV1.pdf)  
+![Hi-RWKV Framework](./framework.png)  
 *Fig. 2: Overall architecture and key components.*
 
 ---
