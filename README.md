@@ -16,7 +16,7 @@ This repository contains the experimental results and supplementary materials fo
 - **Progressive Resolution Reduction**: Maintains discriminative features while reducing memory cost.
 - **State-of-the-Art Performance**: Consistent improvements over CNN-, Transformer-, and Mamba-based baselines on four benchmarks.
 
-![Hi-RWKV Framework](./framework.png)  
+![Hi-RWKV Framework](./png/framework.png)  
 *Fig. 2: Overall architecture and key components.*
 
 ---
@@ -26,7 +26,7 @@ This repository contains the experimental results and supplementary materials fo
 We evaluate Hi-RWKV on **Indian Pines**, **XuZhou**, **HongHu**, and **HanChuan** datasets.  
 Hi-RWKV consistently achieves **higher OA, AA, and Kappa** than SOTA baselines, especially in low-data regimes (0.01%-1%).
 
-![Performance Comparison](./fig1_results.png)  
+![Performance Comparison](./png/fig1_results.png)  
 *Fig. 1: Comparative classification performance under different training ratios.*
 
 ---
