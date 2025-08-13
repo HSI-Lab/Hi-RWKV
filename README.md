@@ -17,7 +17,7 @@ This repository contains the experimental results and supplementary materials fo
 - **State-of-the-Art Performance**: Consistent improvements over CNN-, Transformer-, and Mamba-based baselines on four benchmarks.
 
 ![Hi-RWKV Framework](./png/framework.png)  
-*Fig. 2: Overall architecture and key components.*
+*Fig. 1: Overall architecture and key components.*
 
 ---
 
@@ -27,7 +27,7 @@ We evaluate Hi-RWKV on **Indian Pines**, **XuZhou**, **HongHu**, and **HanChuan*
 Hi-RWKV consistently achieves **higher OA, AA, and Kappa** than SOTA baselines, especially in low-data regimes (0.01%-1%).
 
 ![Performance Comparison](./png/fig1_results.png)  
-*Fig. 1: Comparative classification performance under different training ratios.*
+*Fig. 2: Comparative classification performance under different training ratios.*
 
 ---
 
