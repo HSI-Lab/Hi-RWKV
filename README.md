@@ -16,7 +16,7 @@ This repository contains the experimental results and supplementary materials fo
 - **Progressive Resolution Reduction**: Maintains discriminative features while reducing memory cost.
 - **State-of-the-Art Performance**: Consistent improvements over CNN-, Transformer-, and Mamba-based baselines on four benchmarks.
 
-![Hi-RWKV Framework](./png/framework.png)  
+![Hi-RWKV Framework](./png/frameworkv1.png)  
 *Fig. 1: Overall architecture and key components.*
 
 ---
