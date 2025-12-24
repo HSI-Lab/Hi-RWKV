@@ -121,6 +121,7 @@ If you find this work useful, please cite the paper as follows:
   journal = {IEEE Transactions on Image Processing},
   year    = {2026},
   note    = {Accepted, in press}
+  doi     ={DOI:10.1109/TIP.2025.3648554}
 }
 ```
 
