@@ -26,9 +26,6 @@ A multi-stage hierarchical design further enables progressive resolution reducti
 - **Linear-Complexity Global Modeling**  
   RWKV replaces self-attention for long-range context modeling, achieving *O(N)* complexity with respect to the number of tokens while maintaining strong representational capacity.
 
-- **Dataset-Aware Architecture Design**  
-  Different datasets adopt customized RWKV compositions (pooling, normalization, activation, and resolution reduction), all instantiated through **config-driven YAML files** without modifying model code.
-
 - **Efficient Dense Prediction**  
   Progressive resolution reduction balances computational efficiency and classification accuracy, enabling high-resolution dense prediction with reduced memory overhead.
 
@@ -46,7 +43,7 @@ A multi-stage hierarchical design further enables progressive resolution reducti
 ---
 
 ## 📊 Experimental Results
-
+![Results](./png/fig1_results.png)
 Hi-RWKV is evaluated on four widely used hyperspectral benchmarks:
 
 - **Indian Pines**
