@@ -84,12 +84,12 @@ This design ensures:
 
 ```text
 Hi-RWKV/
-├── config/                # Dataset-specific YAML configuration files
+├── config/                # YAML configuration files
 ├── logs/                  # Training logs and experimental records
-│   ├── HanChuan/
-│   ├── HongHu/
-│   ├── IndianPines/
-│   └── XuZhou/
+│   ├── HanChuan
+│   ├── HongHu
+│   ├── IndianPines
+│   └── XuZhou
 ├── model/                 # Hi-RWKV model definition and RWKV blocks
 ├── utils/                 # Data loading, evaluation, logging utilities
 ├── png/                   # Figures used in the paper
