@@ -1,0 +1,19 @@
+# configs/base.yaml
+model:
+  name: HiRWKV
+  in_channels: 128
+  hidden_dim: 128
+  num_classes: 10
+  group_num: 1
+
+train:
+  epochs: 200
+  batch_size: 16
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+
+optimizer:
+  type: adamw
+
+scheduler:
+  type: cosine

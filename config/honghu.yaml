@@ -1,0 +1,49 @@
+dataset:
+  name: HongHu
+
+experiment:
+  tag: "hirwkv_rwkv3_avgmax"
+
+rwkv:
+  - {type: rwkv, num_blocks: [1]}
+  - {type: pool, mode: avg, k: 2, s: 2}
+  - {type: act, name: silu}
+  - {type: rwkv, num_blocks: [1]}
+  - {type: pool, mode: max, k: 2, s: 2}
+  - {type: act, name: silu}
+  - {type: rwkv, num_blocks: [1]}
+
+train:
+  lr: 2.5e-4
+  max_epoch: 500
+  train_ratio: 0.01
+  train_samples: 30
+  val_samples: 10
+  seed_list: "0,1,2,3,4,5,6,7,8,9"
+  lambda_reg: 1.0
+  weight_decay: 0.0
+  label_smoothing: 0.0
+
+  use_dropout: false
+  dropout_p: 0.0
+  use_aug: false
+
+  val_with_reg: false
+  record_computecost: true
+
+  no_early_stop: false
+  early_stop_patience: 30
+  log_train_oa: false
+  test_each_epoch: false
+  test_every: 1
+
+io:
+  data_set_path: "./data"
+  work_dir: "./"
+  exp_name: "RUNS"
+  log_dir: "./logs_curve"
+  save_splits: false
+
+model:
+  group_num: 1
+  hidden_dim: 128
