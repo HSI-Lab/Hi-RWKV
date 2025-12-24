@@ -57,15 +57,6 @@ Across all datasets, Hi-RWKV achieves **higher Overall Accuracy (OA), Average Ac
 
 ## ⚙️ Configuration-Driven Training
 
-All experiments in this repository are **strictly configuration-driven**.
-
-Each dataset corresponds to an independent YAML configuration file specifying:
-
-- Dataset name  
-- Hierarchical RWKV structure  
-- Training hyperparameters  
-- Logging and reproducibility settings  
-
 Example:
 
 ```bash
