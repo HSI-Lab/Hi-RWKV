@@ -43,7 +43,7 @@ A multi-stage hierarchical design further enables progressive resolution reducti
 ---
 
 ## 📊 Experimental Results
-![Results](./png/fig1_results.png)
+![Results](./png/results.png)
 Hi-RWKV is evaluated on four widely used hyperspectral benchmarks:
 
 - **Indian Pines**
