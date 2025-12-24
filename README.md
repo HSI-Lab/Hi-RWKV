@@ -128,7 +128,7 @@ If you find this work useful, please cite the paper as follows:
   title   = {Hi-RWKV: Hierarchical RWKV Modeling for Hyperspectral Image Classification},
   author  = {Yunbiao Wang, Dongbo Yu, Ye Tao, Hengyu Niu, Daifeng Xiao, Lupeng Liu and Jun Xiao},
   journal = {IEEE Transactions on Image Processing},
-  year    = {2025},
+  year    = {2026},
   note    = {Accepted, in press}
 }
 ```
