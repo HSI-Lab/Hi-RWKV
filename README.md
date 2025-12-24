@@ -113,15 +113,6 @@ Hi-RWKV/
 **Before running any training or evaluation code, please install the RWKV CUDA extension.**
 
 Hi-RWKV relies on CUDA-accelerated RWKV kernels for efficient sequence modeling.
-
-Please follow the official RWKV installation instructions:
-
-```bash
-git clone https://github.com/BlinkDL/RWKV-CUDA
-cd RWKV-CUDA
-pip install .
-```
-
 Make sure that:
 - Your CUDA version matches your PyTorch build
 - The installation completes without compilation errors
