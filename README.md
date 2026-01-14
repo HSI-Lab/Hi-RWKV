@@ -3,7 +3,7 @@
 This repository provides the **official implementation, configuration files, and experimental logs** for the paper:
 
 **Hi-RWKV: Hierarchical RWKV Modeling for Hyperspectral Image Classification**  
-*Accepted by IEEE Transactions on Image Processing (TIP), in press*
+*Accepted by IEEE Transactions on Image Processing (TIP)*
 
 Project page: https://github.com/HSI-Lab/Hi-RWKV
 
@@ -115,14 +115,16 @@ Make sure that:
 If you find this work useful, please cite the paper as follows:
 
 ```bibtex
-@article{HiRWKV2026,
-  title   = {Hi-RWKV: Hierarchical RWKV Modeling for Hyperspectral Image Classification},
-  author  = {Yunbiao Wang, Dongbo Yu, Ye Tao, Hengyu Niu, Daifeng Xiao, Lupeng Liu and Jun Xiao},
-  journal = {IEEE Transactions on Image Processing},
-  year    = {2026},
-  note    = {Accepted, in press}
-  doi     = {DOI:10.1109/TIP.2025.3648554}
-}
+@ARTICLE{Wang2026HiRWKV,
+  author={Wang, Yunbiao and Yu, Dongbo and Tao, Ye and Niu, Hengyu and Xiao, Daifeng and Liu, Lupeng and Xiao, Jun},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Hi-RWKV: Hierarchical RWKV Modeling for Hyperspectral Image Classification}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TIP.2025.3648554}}
+
 ```
 
 ---
