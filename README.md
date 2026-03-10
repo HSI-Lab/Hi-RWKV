@@ -120,9 +120,9 @@ If you find this work useful, please cite the paper as follows:
   journal={IEEE Transactions on Image Processing}, 
   title={Hi-RWKV: Hierarchical RWKV Modeling for Hyperspectral Image Classification}, 
   year={2026},
-  volume={},
+  volume={35},
   number={},
-  pages={1-1},
+  pages={361-375},
   doi={10.1109/TIP.2025.3648554}}
 
 ```
